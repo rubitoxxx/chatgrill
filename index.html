@@ -23,12 +23,17 @@
     </div>
 
     <div class="silo-section">
+      <p class="silo-label">Perfis (nome ↔ código)</p>
+      <div class="topic-list" id="profileList"><!-- preenchido via JS --></div>
+    </div>
+
+    <div class="silo-section">
       <p class="silo-label">Assuntos frequentes</p>
       <div class="topic-list" id="topicList"><!-- preenchido via JS --></div>
     </div>
 
     <div class="silo-foot">
-      <p>Base com <span id="kbCount">0</span> soluções registradas.</p>
+      <p><span id="kbCount">0</span> soluções e <span id="profileCount">0</span> perfis registrados.</p>
       <p>Não encontrou? Abra um chamado com a equipe de TI.</p>
     </div>
   </aside>
@@ -49,7 +54,7 @@
         id="input"
         type="text"
         autocomplete="off"
-        placeholder="Descreva o erro ou cole a mensagem do sistema..."
+        placeholder="Descreva o erro, cole a mensagem do sistema, ou peça um perfil por nome/código..."
         aria-label="Digite sua pergunta"
       >
       <button type="submit" aria-label="Enviar">

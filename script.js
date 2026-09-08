@@ -319,6 +319,329 @@ const KB = [
   }
 ];
 
+const PROFILES = [
+  {
+    "nome": "cadastros financeiro",
+    "codigo": 3391,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Cadastros Suprimentos",
+    "codigo": 3392,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Cadastros Mercado",
+    "codigo": 3393,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Cadastros Contábeis",
+    "codigo": 3394,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Cadastros Manufatura",
+    "codigo": 3395,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Cadastros Serviços",
+    "codigo": 3396,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Cadastros Receituário",
+    "codigo": 3397,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Cadastros Custos",
+    "codigo": 3418,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "contasreceber",
+    "codigo": 3114,
+    "aplicar_parametros": "Lib.Parâmetro C.P:\nAltera vlr Liquido"
+  },
+  {
+    "nome": "contaspagar",
+    "codigo": 3115,
+    "aplicar_parametros": "Parâmetro C.R:\n\nAltera vlr Liquido"
+  },
+  {
+    "nome": "tesouraria",
+    "codigo": 3116,
+    "aplicar_parametros": "Parâmetro:\nPrep. tesour.(origem na tesour.) processada"
+  },
+  {
+    "nome": "pagamentoeletronico",
+    "codigo": 3349,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "cobrançaescritural",
+    "codigo": 3350,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "financeiroconciliacao",
+    "codigo": 3351,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "financiamentos",
+    "codigo": 3352,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "financeirogerencial",
+    "codigo": 2230,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "caixa básico",
+    "codigo": 4626,
+    "aplicar_parametros": "Parâmetro de usuário: Altera valor liquido - tela F099UPA e F099URE\nAinda na F099URE parametro Permite Gerar devolução de saldo."
+  },
+  {
+    "nome": "perfil credito",
+    "codigo": 4785,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Solicitação",
+    "codigo": 2718,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "cotação",
+    "codigo": 3353,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "ordens de compra",
+    "codigo": 2720,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "contratos De compra",
+    "codigo": 3355,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Recebimento",
+    "codigo": 2719,
+    "aplicar_parametros": "Parâmetro:\n\nSimula Fechamento: S"
+  },
+  {
+    "nome": "Balança",
+    "codigo": 3117,
+    "aplicar_parametros": "Parâmetro Recebimento:\n\nPermitir Alt. Prod. e Classificação do Ticket: S"
+  },
+  {
+    "nome": "requisição",
+    "codigo": 3363,
+    "aplicar_parametros": "Parâmetro Cadastro:\n\nSuperior Imediato: Proprio usuário"
+  },
+  {
+    "nome": "reposição",
+    "codigo": 3364,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "inventário",
+    "codigo": "c",
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Cimm",
+    "codigo": 3365,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "leite",
+    "codigo": 3136,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "controleprodutor",
+    "codigo": 3381,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "comprasgerencial",
+    "codigo": 294,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "orçamentos",
+    "codigo": 3354,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Pedidos",
+    "codigo": 3356,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "contratos de vendas",
+    "codigo": 3357,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Receituário",
+    "codigo": 3358,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "distribuição (expedição)",
+    "codigo": 3359,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Faturamento",
+    "codigo": 3360,
+    "aplicar_parametros": "Parâmetro:\n\nAltera situação Pedido: S\nAltera situação NF Saída: S\nCancelar NF Saida: S\nAlterar dados gerais NF: S\n---\nParâmetro:\n\nSimula Fechamento: S"
+  },
+  {
+    "nome": "Relacionamento (crm)",
+    "codigo": 3361,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "vendasgerencial",
+    "codigo": 3362,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "vendas base",
+    "codigo": 2227,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "agronomo base",
+    "codigo": 4786,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Supply",
+    "codigo": 4810,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "contabilidade",
+    "codigo": 1495,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "tributos",
+    "codigo": 3366,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "patrimonio",
+    "codigo": 3367,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "contabilgerencial",
+    "codigo": 1495,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "manufatura nutricao",
+    "codigo": 3602,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "manufatura PCP",
+    "codigo": 3603,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "manufatura apontamento",
+    "codigo": 3604,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "engenharia",
+    "codigo": 3371,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "inspeções",
+    "codigo": 3665,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Ambiental",
+    "codigo": 3368,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "custos",
+    "codigo": 3419,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "custosgerencial",
+    "codigo": 3722,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "ordensserviço",
+    "codigo": 3370,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "manutenção",
+    "codigo": 3375,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "assistenciatécnica",
+    "codigo": 3376,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "servicogerencial",
+    "codigo": 3377,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "auditoria",
+    "codigo": 4093,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Consultas / Relatórios",
+    "codigo": 3517,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "perfil.parametros",
+    "codigo": 3386,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "Perfil Fornecedor",
+    "codigo": 2463,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "ConsultasRelatóriosGerencial",
+    "codigo": 3777,
+    "aplicar_parametros": ""
+  },
+  {
+    "nome": "perfil.cd (adm cd)",
+    "codigo": 2375,
+    "aplicar_parametros": ""
+  }
+];
+
 /* ---------- utilidades de texto ---------- */
 
 function normalize(str) {
@@ -389,17 +712,67 @@ function findBestMatches(query, limit = 1) {
   return scored.slice(0, limit);
 }
 
+/* ---------- busca de perfis (nome ↔ código) ---------- */
+
+// palavras que aparecem na pergunta mas não fazem parte do nome do perfil
+const PROFILE_FILLER = new Set([
+  'perfil','perfis','codigo','código','code','nome','qual','quais',
+  'informe','diga','favor','gostaria','saber','sobre','desse','dessa',
+  'e','o','a','me','do','da','de','dos','das'
+]);
+
+function profileQueryTokens(query) {
+  return tokenize(query).filter(t => !PROFILE_FILLER.has(t));
+}
+
+// busca por código exato (aceita "3391", "código 3391", "perfil 3391"...)
+function tryProfileByCode(query) {
+  const digits = query.match(/\d+/g);
+  if (!digits) return null;
+  for (const d of digits) {
+    const found = PROFILES.filter(p => String(p.codigo).toLowerCase() === d.toLowerCase());
+    if (found.length) return found;
+  }
+  return null;
+}
+
+// busca por nome (aceita nome parcial, com ou sem acento/maiúsculas)
+function tryProfileByName(query) {
+  const qTokens = profileQueryTokens(query);
+  if (qTokens.length === 0) return null;
+
+  const candidates = PROFILES.map(p => {
+    const pTokens = tokenize(p.nome);
+    const pSet = new Set(pTokens);
+    const overlap = qTokens.filter(t => pSet.has(t)).length;
+    const isSubsetEither = overlap > 0 && (overlap === qTokens.length || overlap === pTokens.length);
+    return { p, overlap, isSubsetEither, pTokensLen: pTokens.length };
+  }).filter(c => c.overlap > 0);
+
+  if (candidates.length === 0) return null;
+
+  const strong = candidates.filter(c => c.isSubsetEither);
+  const pool = strong.length ? strong : candidates;
+  pool.sort((a, b) => b.overlap - a.overlap || a.pTokensLen - b.pTokensLen);
+
+  const topOverlap = pool[0].overlap;
+  return pool.filter(c => c.overlap === topOverlap).slice(0, 6).map(c => c.p);
+}
+
 /* ---------- UI ---------- */
 
 const threadEl = document.getElementById('thread');
 const formEl = document.getElementById('composer');
 const inputEl = document.getElementById('input');
 const topicListEl = document.getElementById('topicList');
+const profileListEl = document.getElementById('profileList');
 const kbCountEl = document.getElementById('kbCount');
+const profileCountEl = document.getElementById('profileCount');
 const siloEl = document.getElementById('silo');
 const siloToggleEl = document.getElementById('siloToggle');
 
 kbCountEl.textContent = KB.length;
+profileCountEl.textContent = PROFILES.length;
 
 function scrollToBottom() {
   threadEl.scrollTop = threadEl.scrollHeight;
@@ -462,6 +835,32 @@ function addBotAnswer(match) {
   scrollToBottom();
 }
 
+function addProfileAnswer(profiles) {
+  const wrap = document.createElement('div');
+  wrap.className = 'msg bot';
+  let html = '';
+
+  if (profiles.length === 1) {
+    const p = profiles[0];
+    html += `<span class="kw-tag">PERFIL</span><br>`;
+    html += `<strong>Nome:</strong> ${escapeHtml(p.nome)}<br>`;
+    html += `<strong>Código:</strong> ${escapeHtml(String(p.codigo))}`;
+    if (p.aplicar_parametros) {
+      html += `<br><br><strong>Parâmetros a aplicar:</strong><br>${escapeHtml(p.aplicar_parametros)}`;
+    }
+  } else {
+    html += `<strong>Encontrei mais de um perfil parecido:</strong><br><br>`;
+    html += profiles
+      .map(p => `• ${escapeHtml(p.nome)} — código <strong>${escapeHtml(String(p.codigo))}</strong>`)
+      .join('<br>');
+    html += `<br><br>Digita o nome completo ou o código pra eu confirmar qual é.`;
+  }
+
+  wrap.innerHTML = `<div class="bubble">${html}</div>`;
+  threadEl.appendChild(wrap);
+  scrollToBottom();
+}
+
 function handleQuery(query) {
   addUserMessage(query);
   inputEl.value = '';
@@ -469,6 +868,22 @@ function handleQuery(query) {
 
   setTimeout(() => {
     typingEl.remove();
+
+    // 1) o usuário mencionou um código de perfil conhecido?
+    const codeMatches = tryProfileByCode(query);
+    if (codeMatches) {
+      addProfileAnswer(codeMatches);
+      return;
+    }
+
+    // 2) o texto bate com o nome de um perfil?
+    const nameMatches = tryProfileByName(query);
+    if (nameMatches) {
+      addProfileAnswer(nameMatches);
+      return;
+    }
+
+    // 3) cai para a base de soluções de chamados
     const matches = findBestMatches(query, 1);
     addBotAnswer(matches[0]);
   }, 380);
@@ -514,6 +929,27 @@ function buildTopics() {
 
 buildTopics();
 
+/* ---------- lista de perfis (sidebar) ---------- */
+
+function buildProfileShortcuts() {
+  const sorted = [...PROFILES].sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+
+  sorted.slice(0, 20).forEach(p => {
+    const btn = document.createElement('button');
+    btn.className = 'topic-btn';
+    btn.type = 'button';
+    const label = `${p.nome} · ${p.codigo}`;
+    btn.textContent = label.length > 46 ? label.slice(0, 44) + '…' : label;
+    btn.addEventListener('click', () => {
+      handleQuery(p.nome);
+      if (window.innerWidth <= 820) siloEl.classList.remove('open');
+    });
+    profileListEl.appendChild(btn);
+  });
+}
+
+buildProfileShortcuts();
+
 /* ---------- sidebar mobile ---------- */
 
 siloToggleEl.addEventListener('click', () => {
@@ -526,8 +962,9 @@ function addWelcome() {
   const wrap = document.createElement('div');
   wrap.className = 'msg bot';
   wrap.innerHTML = `<div class="bubble">
-    Oi! Eu busco soluções na base de chamados do Agrosys / Senior.
-    Descreve o problema, cola a mensagem de erro, ou escolhe um assunto ao lado.
+    Oi! Eu busco na base de chamados e na lista de perfis do Agrosys / Senior.
+    Descreve um problema, cola a mensagem de erro, pergunta o código de um perfil
+    pelo nome (ou o nome pelo código), ou escolhe um item ao lado.
   </div>`;
   threadEl.appendChild(wrap);
 }
