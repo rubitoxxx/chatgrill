@@ -1,5 +1,5 @@
 /* ==========================================================
-   ChatGrill - Copagril
+   Chatgril - Copagril
    Chatbot 100% estático (HTML/CSS/JS) baseado na base de
    conhecimento exportada da planilha de perfis e chamados.
    ========================================================== */
@@ -154,7 +154,7 @@ function handleQuery(rawText) {
 
     if (results.length === 0) {
       addMessage(
-        "Não encontrei nada exatamente sobre isso na base de dados. Tente descrever o erro com outras palavras, informar o nome ou código do perfil, ou o nome da tela do Sênior envolvida.",
+        "Não encontrei nada exatamente sobre isso na base do Agrosys. Tente descrever o erro com outras palavras, informar o nome ou código do perfil, ou o nome da tela do Sênior envolvida.",
         "bot"
       );
       return;
@@ -196,7 +196,7 @@ userInput.addEventListener("keydown", e => {
 // Mensagem de boas-vindas
 window.addEventListener("DOMContentLoaded", () => {
   addMessage(
-    "Olá! Sou o ChatGrill 🌱\nPergunte sobre erros do sistema, soluções de chamados já resolvidos ou perfis de acesso (ex.: \"perfil financeiro\", \"erro ao faturar pedido\", \"contasreceber\").",
+    "Olá! Sou o Chatgril 🌱\nPergunte sobre erros do sistema, soluções de chamados já resolvidos ou perfis de acesso (ex.: \"perfil financeiro\", \"erro ao faturar pedido\", \"contasreceber\").",
     "bot"
   );
   buildSuggestions();
